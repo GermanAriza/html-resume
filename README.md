@@ -4,3 +4,5 @@ El proyecto tiene como finalidad generar una versión web de mi hoja de vida, la
 
 Todos los derechos reservados sobre mi imagen e información disponible.
 
+https://github.com/GermanAriza/resume.git
+

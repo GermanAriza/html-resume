@@ -186,7 +186,59 @@
           <tr height=40>
             <td colspan="4"></td>
           </tr>
-
+          <!-- FORMULARIO-->
+          <tr width=100% >
+            <td width=20% height=40></td>
+            <th width=60% height=40 align="center" colspan="2"><div id="bord"><p style="color:#FFFFFF">AGREGAR ESTUDIO</p>
+            </div></th>
+            <td width=20% height=40></td>
+          </tr>
+          <tr><!--Estudio -->
+            <td width=20% height="10"></td>
+            <td width=20% align="left" colspan="2">
+              <form  action="educacion.html" >
+                <fieldset>
+                  <legend><em>Agregar Estudio</em></legend>
+                  <table>
+                    <tr>
+                      <td>Institución</td>
+                      <td><input type="text" name="institucion" size="50"></td>
+                    </tr>
+                    <tr>
+                      <td>Título</td>
+                      <td><input type="text" name="titulo" size="50"></td>
+                    </tr>
+                    <tr>
+                      <td>Ciudad</td>
+                      <td>
+                        <select  name="ciudad" >
+                          <option value="bta">Bogotá</option>
+                          <option value="cli">Cali</option>
+                          <option value="mell">Medellin</option>
+                          <option value="bqll">Barranquilla</option>
+                        </select>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Fecha Inicio</td>
+                      <td><input type="date" name="inicio"></td>
+                    </tr>
+                    <tr>
+                      <td>Fecha Fin</td>
+                      <td><input type="date" name="fin"></td>
+                    </tr>
+                    <tr>
+                      <td><input type="submit" name="crear" value="CREAR"></td>
+                    </tr>
+                  </table>
+                </fieldset>
+              </form>
+            </td>
+          </tr>
+          <!--FIN FORMULARIO -->
+          <tr height=40>
+            <td colspan="4"></td>
+          </tr>
         </tbody>
       </table>
     </section>

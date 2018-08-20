@@ -6,6 +6,10 @@ Se utilizaron elementos como:
 - Tablas
 - listados
 - Enlaces
+- Formulario:
+            - Input date
+            - Option - select
+            - Input Text
 - Imagenes: -.svg
             -.jpg
             -.png
